@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movie Festival</title>
+</head>
+<body>
+    <h1>Movie Festival</h1>
+    <div class="main-div">
+        <p>Please fill in the form</p>
+            <p>Movie</p>
+        <div>
+            <label>Title</label><br>
+            <input id="movie-title" type="text" name="username" size="15" max length="30"><br><br>
+            <label>Length(min)</label><br><br>
+            <input id="movie-length" type="text" name="username" size="15" max length="30"><br><br>
+            <label>Genre</label><br><br>
+            <select id="genre" name="genre">
+                <option value="-">-</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="sci-fi">Sci-Fi</option>
+                <option value="adventure">Adventure</option>
+                <option value="horor">Horor</option>
+            </select><br><br>
+            <input id="create-movie-btn" class="button" type="button" value="Create Movie"><br>
+            <p id ="error" class ="hidden"></p>
+            <ul id="created-movie-here"></ul>
+        </div>
+        <p>Program</p>
+        <div>
+            <label>Date</label><br>
+            <input id="program-date" type="date" name="somedate"><br><br>
+            <input id="create-program-btn" class="button" type="submit" value="Create Program"><br><br>
+            <p id ="program-error" class ="hidden"></p>
+            <ul id="programs-list"></ul><br>
+            <label>Movie</label><br>
+            <select id="movie-dropdown-list" name="movie">
+                <option value="-">-</option>
+            </select><br>
+            <p>Program</p><br>
+            <select id="program-dropdown-list" class="drop-down" name="movie">
+                <option value="-">-</option>
+            </select><br><br>
+            <input id="addmovie-btn" class="button" type="submit" value="Add movie to program">
+        </div>    
+    </div>
+    
+    <script type = "module" src="./js/app.js"></script>
+</body>
+</html>
