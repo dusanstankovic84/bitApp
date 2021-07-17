@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.pagination ul {
+    display: flex;
+    flex-wrap: wrap;   
+    background: rgb(255, 237, 136);
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.pagination ul li {
+    color: black;
+    list-style: none;
+    text-align:center;
+    cursor:pointer;
+    width: 70px;
+    padding: 5px 5px;
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+
+.pagination ul li:hover {
+    background: rgb(226, 223, 190);
+}
+
+.pagination ul li:active {
+    background: rgb(226, 219, 155);
+}
+
+.active {
+    background-color: rgb(212, 203, 117);
+}
+
+.disabled {
+    
+}
+
+

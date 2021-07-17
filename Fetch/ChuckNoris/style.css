@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+button {
+    background: #0a53be;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover {
+    background: #0c62e2;
+}
+button:active {
+    background: #083f90;
+}
+p#joke-text {
+    border-radius: 5px;
+    border: 2px solid #f3f3f3;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 400px;
+}
+.error {
+    color: red;
+}
