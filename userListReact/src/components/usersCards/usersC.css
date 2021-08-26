@@ -1,0 +1,14 @@
+
+
+.UsersC__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    margin: 5px 15px;
+    margin-left: 230px;
+}
+
+.disapear{
+    display: none;
+}
+

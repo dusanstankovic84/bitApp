@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.UserC__wrapper {
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 3px;
+    width: 330px;
+    height: 400px;
+}
+
+.UserC__img {
+    position: relative;
+    height: 320px;
+    width: 320px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+.UserC__info p {
+    position: relative;
+    bottom: 50px;
+    left:20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.userCname {
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.UserC__wrapper{
+    margin: 10px;
+}
